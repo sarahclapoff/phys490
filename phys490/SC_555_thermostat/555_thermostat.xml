@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\saraa\Documents\school\phys490\SC_555_thermostat\555_thermostat.kicad_sch</source>
+    <date>2022-04-04 11:46:47 AM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>555_thermostat.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>baby_batt</value>
+      <footprint>p490:coinbat</footprint>
+      <libsource lib="p490" part="baby_batt" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f75f1c6d-c8d2-4db6-ab9c-9d658d3b6446</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b878a44f-d07c-4dd3-95c5-f98dcfe2b37b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3709133d-e933-4253-86d8-a188b07ae70a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>33micro</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06eb2baa-fd40-4e51-99fa-b0ab10a64cd2</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fff8e6ad-27b2-407a-96c8-092ade078aef</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1687c0c1-8b58-48ce-b423-c8a759dbc82e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dba360b0-c5b6-47e7-94b4-da801c537b54</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e779a24e-79a3-4a35-90cd-c77458b9b49e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ea25492-bddf-4264-8bd0-c6936a06f014</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>4.7k/25C</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ae51998-a663-461a-8569-61979aecc35d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>my555</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="p490" part="my555" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="555_thermostat.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a58fb1-6c61-4363-b6fc-0c2f60841d8d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor">
+      <description>Temperature dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="p490" part="baby_batt">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">baby_batt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Va" type="passive"/>
+        <pin num="2" name="Vb" type="passive"/>
+        <pin num="3" name="Vc" type="passive"/>
+        <pin num="4" name="Vd" type="passive"/>
+        <pin num="5" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="p490" part="my555">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">my555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="TRG" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+        <pin num="4" name="RST" type="passive"/>
+        <pin num="5" name="CONT" type="passive"/>
+        <pin num="6" name="TRSH" type="passive"/>
+        <pin num="7" name="DSCH" type="passive"/>
+        <pin num="8" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="p490">
+      <uri>C:/Users/saraa/Documents/KiCad/6.0/symbols/p490.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V0">
+      <node ref="BT1" pin="1" pinfunction="Va" pintype="passive"/>
+      <node ref="BT1" pin="2" pinfunction="Vb" pintype="passive"/>
+      <node ref="BT1" pin="3" pinfunction="Vc" pintype="passive"/>
+      <node ref="BT1" pin="4" pinfunction="Vd" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RST" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="Vdd" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="BT1" pin="5" pinfunction="G" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="CONT" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="DSCH" pintype="passive"/>
+    </net>
+    <net code="8" name="trg">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TRG" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="TRSH" pintype="passive"/>
+    </net>
+  </nets>
+</export>
